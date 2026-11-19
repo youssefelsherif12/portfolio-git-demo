@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  background: #f5f7fb;
+  color: #192434;
+  font-family: system-ui, sans-serif;
+  line-height: 1.6;
+}
+
+header {
+  background: #18263b;
+}
+
+nav,
+main {
+  max-width: 52rem;
+  margin: 0 auto;
+  padding: 1rem 1.25rem;
+}
+
+nav {
+  display: flex;
+  gap: 1.5rem;
+}
+
+nav a {
+  color: #fff;
+  text-underline-offset: 0.25em;
+}
+
+nav a[aria-current="page"] {
+  font-weight: 700;
+}
+
+h1,
+h2 {
+  line-height: 1.2;
+}
+
+p {
+  max-width: 62ch;
+}

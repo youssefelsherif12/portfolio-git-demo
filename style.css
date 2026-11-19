@@ -39,3 +39,26 @@ h2 {
 p {
   max-width: 62ch;
 }
+
+.projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr));
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.projects article {
+  padding: 1rem;
+  background: #fff;
+  border: 1px solid #d6dee9;
+  border-radius: 0.5rem;
+}
+
+.projects h2 {
+  margin: 0 0 0.5rem;
+  font-size: 1.125rem;
+}
+
+.projects p {
+  margin: 0;
+}
